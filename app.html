@@ -181,6 +181,9 @@
               <div class="alert alert-${type}">
                   ${message}
               </div>`;
+              setTimeout(() => {
+                alertContainer.innerHTML = '';
+            }, 3000); // Alert disappears after 3 seconds
       }
 
       addAccountBtn.addEventListener('click', addAccountRow);
