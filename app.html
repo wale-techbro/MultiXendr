@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MultiXendr FAQs</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow custom-spinner" style="width: 3rem; height: 3rem;" role="status">
+        </div>
+    </div>
+    <!-- Spinner End -->
+     
+
+        <!-- Navbar Start -->
+        <div class="container-fluid sticky-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                    <div class="logo-img">
+                        <img src="img/logo.png" alt="MultiXendrogo">
+                    </div>
+                    <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <i class="bi bi-list"></i> <!-- Bootstrap icon for the mobile menu -->
+                    </button>                
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="faqs.html" class="nav-item nav-link">FAQs</a>
+                            <div><a href="app.html" class="nav-item nav-link active">Use MultiXendr</a></div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+    <!-- About Start -->
+    <section class="sectionmr pt-5 pb-2">
+        <div class="container pt-5">
+
+    <!-- Hero Start -->
+            <div class="userrow row g-5 pt-5">
+                <div class="hero-content align-items-center text-center">
+                    <h1 class="animated slideInRight app-hero">SEND CRYPTO<br><span>MULTIPLE</span> ADDRESSES</h1>
+                    <h4 class="mb-4 animated slideInRight app-subtitle">Powered by NEAR Protocol, Brought to you by FDAO</h4>
+                  </div>
+                </div>
+    <!-- Hero End -->
+
+    <!-- Form Start -->
+        <form class="bxme mt-5">
+          <!-- Token Address Section -->
+          <div class="mb-4">
+            <label for="tokenAddress" class="form-label h4">Token Address</label>
+            <select id="tokenAddress" class="form-select h4">
+              <option selected>NEAR</option>
+              <option value="1">USDT</option>
+              <option value="2">OTTO</option>
+            </select>
+          </div>
+      
+          <div id="form-area">
+          <!-- Account ID and Amount Section -->
+          <div class="deets row align-items-center d-flex justify-content-between mb-4">
+            <div class="col-md-5 mb-3 mb-md-0">
+              <label for="accountId" class="form-label h4">Account ID</label>
+              <input type="text" class="form-control h4" id="accountId" placeholder="Enter account ID">
+            </div>
+
+            <div class="col-md-3 mb-3 mb-md-0">
+              <label class="form-label h4">NEAR</label>
+              <input type="text" class="form-control h4" placeholder="NEAR">
+            </div>
+
+            <div class="col-md-3 mb-3 mb-md-0">
+              <label class="form-label h4">USD</label>
+              <input type="text" class="form-control h4" placeholder="USD">
+            </div>
+
+            <div class="col-md-1 mb-3 mb-md-0">
+              <button type="button" class="btn btn-danger btn-circle remove-field">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+
+        </div>
+        <!-- ALERT SECTION-->
+        <div id="alert-container"></div>
+      
+          <!-- Buttons Section -->
+          <div class="btx d-flex justify-content-end">
+            <button type="button" class="add-btn h4" id="add-account-btn">
+                ADD ACCOUNT<img class="ms-2" src="img/plus.png">
+            </button>
+            <button type="button" class="add-btn h4">
+                SHOW FEES
+            </button>
+            <button type="button" class="send-btn h4">
+                MultiSend<img class="ms-2" src="img/lightning.png">
+            </button>
+          </div>
+        </form>
+    <!-- Form End -->
+
+
+            <div class="text-center wow fadeIn pt-5" data-wow-delay="0.3s">
+                <span class="p_mobile">© 2024 MultiXendr. All Rights Reserved.</span>
+            </div>
+    </section>
+        <!-- Hero End -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+    <!--Bootstrap scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const formArea = document.getElementById('form-area');
+      const addAccountBtn = document.getElementById('add-account-btn');
+      const alertContainer = document.getElementById('alert-container');
+
+      function addAccountRow() {
+          const newRow = document.querySelector('.deets').cloneNode(true);
+          newRow.querySelectorAll('input').forEach(input => {
+              input.value = '';
+          });
+          const removeButton = newRow.querySelector('.remove-field');
+          removeButton.addEventListener('click', removeAccountRow);
+          formArea.appendChild(newRow);
+      }
+
+      function removeAccountRow(event) {
+          const row = event.target.closest('.deets');
+          const allRows = formArea.querySelectorAll('.deets');
+          if (allRows.length > 1) {
+              row.remove();
+          } else {
+              showAlert("You can't remove the last account row.", "danger");
+          }
+      }
+
+      function showAlert(message, type) {
+          alertContainer.innerHTML = `
+              <div class="alert alert-${type}">
+                  ${message}
+              </div>`;
+      }
+
+      addAccountBtn.addEventListener('click', addAccountRow);
+
+      document.querySelectorAll('.remove-field').forEach(button => {
+          button.addEventListener('click', removeAccountRow);
+      });
+  });
+</script>
+
+</body>
+
+</html>
